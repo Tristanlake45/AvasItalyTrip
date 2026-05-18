@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --paper: #f7efe0;
+  --ink: #30251f;
+  --muted: #7c6a5c;
+  --accent: #b44b32;
+  --accent-dark: #793323;
+  --card: rgba(255, 250, 240, 0.9);
+  --border: rgba(70, 45, 25, 0.2);
+  --shadow: 0 24px 70px rgba(42, 28, 18, 0.22);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(180, 75, 50, 0.18), transparent 35%),
+    linear-gradient(135deg, #e8d1b5, #f9efe2 45%, #d9b99a);
+}
+
+.page {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.postcard {
+  position: relative;
+  min-height: 520px;
+  padding: 48px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+    linear-gradient(var(--card), var(--card));
+  background-size: 36px 36px, auto;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.postcard::before {
+  content: "";
+  position: absolute;
+  inset: 24px;
+  border: 2px dashed rgba(121, 51, 35, 0.28);
+  border-radius: 22px;
+  pointer-events: none;
+}
+
+.stamp {
+  position: absolute;
+  top: 40px;
+  right: 42px;
+  width: 92px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--accent);
+  color: var(--accent);
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  transform: rotate(8deg);
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--accent-dark);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.title-block {
+  max-width: 760px;
+}
+
+h1 {
+  max-width: 700px;
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  line-height: 0.9;
+}
+
+.subtitle {
+  margin-top: 18px;
+  max-width: 620px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.day-label {
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.note-card {
+  max-width: 760px;
+  width: 100%;
+  margin-top: 34px;
+  padding: 0;
+  border-left: 5px solid var(--accent);
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 18px;
+  font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+  line-height: 1.65;
+}
+
+.note-card p {
+  margin: 0;
+}
+
+.note-card {
+  max-width: 760px;
+  width: 100%;
+  margin-top: 34px;
+  padding: 0;
+  border-left: 5px solid var(--accent);
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 18px;
+  font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+  line-height: 1.65;
+}
+
+.reveal-card {
+  position: relative;
+  min-height: 260px;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+}
+
+.reveal-card #note {
+  min-height: 260px;
+  padding: 32px;
+  margin: 0;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+#scratchCanvas {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
+  transition: opacity 0.35s ease;
+}
+
+.countdown {
+  margin-top: 36px;
+}
+
+.countdown h2,
+.gallery-section h2 {
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.time-box {
+  min-width: 92px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--paper);
+  text-align: center;
+}
+
+.time-box strong {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.time-box span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.gallery-section {
+  margin-top: 36px;
+  padding: 36px;
+  border-radius: 28px;
+  background: rgba(255, 250, 240, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.gallery-subtitle,
+.empty-gallery {
+  color: var(--muted);
+}
+
+.upload-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.upload-form input,
+.upload-form button {
+  padding: 13px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font: inherit;
+}
+
+.upload-form button {
+  border: none;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+.upload-form button:hover {
+  background: var(--accent-dark);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.upload-form select {
+  padding: 13px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font: inherit;
+  background: white;
+}
+
+.photo-card {
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 12px 28px rgba(42, 28, 18, 0.14);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 240px;
+  display: block;
+  object-fit: cover;
+}
+
+.photo-info {
+  padding: 14px 16px;
+}
+
+.photo-info p {
+  margin: 0 0 6px;
+}
+
+.photo-info span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .page {
+    width: min(100% - 28px, 640px);
+    padding: 22px 0;
+  }
+
+  .postcard {
+    min-height: auto;
+    padding: 28px 18px;
+    border-radius: 22px;
+  }
+
+  .postcard::before {
+    inset: 12px;
+    border-radius: 18px;
+  }
+
+  .stamp {
+    position: static;
+    width: 78px;
+    height: 58px;
+    margin-left: auto;
+    margin-bottom: 22px;
+    font-size: 0.75rem;
+  }
+
+  h1 {
+    font-size: clamp(2.7rem, 16vw, 4.4rem);
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .day-label {
+    font-size: 1rem;
+  }
+
+  .timer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .time-box {
+    min-width: 0;
+    padding: 12px;
+  }
+
+  .time-box strong {
+    font-size: 1.55rem;
+  }
+
+  .gallery-section {
+    margin-top: 24px;
+    padding: 24px 18px;
+    border-radius: 22px;
+  }
+
+  .upload-form {
+    grid-template-columns: 1fr;
+  }
+
+  .upload-form input,
+  .upload-form button {
+    width: 100%;
+  }
+}
+
+.gallery-button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gallery-button:hover {
+  background: var(--accent-dark);
+}

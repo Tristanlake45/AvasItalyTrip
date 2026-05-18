@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>37 Days in Italy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="postcard">
+        <div class="stamp">ROME</div>
+      
+        <p class="eyebrow">Letters across the ocean</p>
+      
+        <div class="title-block">
+          <h1>37 Days in Italy</h1>
+      
+          <p class="subtitle">
+            From Me to You!
+          </p>
+        </div>
+      
+        <p id="dayLabel" class="day-label">Loading...</p>
+      
+        <div class="note-card reveal-card" id="revealCard">
+            <p id="note">Loading today’s note...</p>
+            <canvas id="scratchCanvas"></canvas>
+        </div>
+      
+        <div class="countdown">
+          <h2>Countdown Until Ava Comes Home</h2>
+          <div id="countdownTimer" class="timer"></div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <h2>Our Photo Gallery</h2>
+        <p class="gallery-subtitle">
+          A shared album for memories from both sides of the ocean.
+        </p>
+      
+        <a 
+          class="gallery-button" 
+          href="https://photos.app.goo.gl/czbMikoBG4gUaAfn8" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Our Shared Album
+        </a>
+      </section>
+  </main>
+
+  <script src="js/notes.js"></script>
+  <script src="js/script.js"></script>
+  <script type="module" src="js/firebase.js"></script>
+</body>
+</html>

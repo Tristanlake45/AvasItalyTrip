@@ -1,6 +1,6 @@
 const startDate = "2026-05-20";
 const totalDays = 37;
-const testDayIndex = null;
+const testDayIndex = 0;
 const returnDateRome = "2026-06-26T00:00:00+02:00";
 
 const noteElement = document.getElementById("note");
@@ -38,14 +38,12 @@ function displayTodaysNote() {
   if (index < 0) {
     dayElement.textContent = "Coming soon";
     noteElement.textContent = "The first note unlocks on May 20 in Rome.";
-    scratchCanvas.style.display = "none";
     return;
   }
 
   if (index >= totalDays) {
     dayElement.textContent = "All notes opened";
     noteElement.textContent = "All 37 notes have been opened.";
-    scratchCanvas.style.display = "none";
     return;
   }
 
@@ -177,10 +175,6 @@ window.addEventListener("resize", () => {
 });
 
 displayTodaysNote();
-
-if (getDayIndex() >= 0 && getDayIndex() < totalDays) {
-  setupScratchCard();
-}
-
+setupScratchCard();
 updateCountdown();
 setInterval(updateCountdown, 1000);

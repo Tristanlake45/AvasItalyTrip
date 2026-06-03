@@ -102,5 +102,29 @@ I look forward to hearing your answers baby! I hope you have/had a great day, an
   {
     day: 14,
     message: `HAPPY END OF WEEK TWO! We are getting another week closer to your long awaited return! I hope you have had a great time so far on your trip! I also hope that you have learned and grown a lot while soaking in the culture and sunshine of the big boot. I can’t wait for you to return and unload all your cool stories and adventures on me, perhaps over some chips and queso! I love you so much, and being this far from you has definitely not been easy, but I know when you’re back in my arms it’ll all be alright! Cheers to week 3, ciao (that’s Italian for peace out)`
+  },
+
+  {
+    day: 15,
+    message: `WELCOME TO WEEK 3 BABE! With every day we’re getting closer! I hope you are having a good day, and at the time of writing this I am in my office listening to ween on YouTube, reminiscing on being in Omaha with you. I can’t stop thinking about how much fun it was when I would drive down after work on a Friday and get to spend my whole weekend worry free with the person I love. I was especially missing our Alberlerdos dates, which brings me to my next point: HURRY UP AND GET HOME SO WE CAN GET MEXICAN TOGETHER. I promise the day after you get back, we are driving straight to a jersey mikes, promptly followed by LA PLAZA FIESTA. All this talk of Food might be related to the fact I haven’t had lunch yet, but it brings me to my question for you today: What is the best dish you’ve had yet? What was your favorite restaurant? What American food do you miss most? Like always I can’t wait to talk to you next! I miss you more than you know, and it’s especially bad in the quiet moments of the day that I would typically fill with your company. I love you! Talk soon!`
+  },
+  
+  {
+    day: 16,
+    message: `Hello once again! Happy day 16! I decided to write you a lil poem:
+  
+  When you’re away, It’s not easy to stay
+  A million miles apart
+  
+  If it were up to me, I’d jump the sea
+  Just to sniff your fart
+  
+  When you land, Ill take your hand
+  And drive off in a cart
+  
+  Isn’t it clear, I need you here
+  You own the key to my heart
+  
+  I hope you enjoyed that! I can’t wait to hear from you again and I hope you have A GREAT DAY! I love you!!`
   }
 ];

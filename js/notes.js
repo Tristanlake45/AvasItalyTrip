@@ -126,5 +126,10 @@ I look forward to hearing your answers baby! I hope you have/had a great day, an
   You own the key to my heart
   
   I hope you enjoyed that! I can’t wait to hear from you again and I hope you have A GREAT DAY! I love you!!`
-  }
-];
+  },
+  {
+    day: 19,
+    message: `HELLO BABE! Happy day 19! I hope you had a great night sleep in your big ahh eye mask. I miss you soooooooooooo much, I am currently sitting in my backyard basking in the sun. I was pondering on the fact that my sunset is your sunrise. It’s so crazy that there is so much distance between our locations and it freaks me out thinking about it.
+  All this is to say that I am ready to share a sunset again. So if we could find a way to speed up time a lil so I can see you sooner, we should get on that A$AP. Anyhow, I hope you have a wonderful day and I look forward to hearing your voice again, I LOVE YOU!`
+    }
+  ];

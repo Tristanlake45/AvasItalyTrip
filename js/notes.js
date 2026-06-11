@@ -146,5 +146,71 @@ I look forward to hearing your answers baby! I hope you have/had a great day, an
     day: 19,
     message: `HELLO BABE! Happy day 19! I hope you had a great night sleep in your big ahh eye mask. I miss you soooooooooooo much, I am currently sitting in my backyard basking in the sun. I was pondering on the fact that my sunset is your sunrise. It’s so crazy that there is so much distance between our locations and it freaks me out thinking about it.
   All this is to say that I am ready to share a sunset again. So if we could find a way to speed up time a lil so I can see you sooner, we should get on that A$AP. Anyhow, I hope you have a wonderful day and I look forward to hearing your voice again, I LOVE YOU!`
-    }
+    },
+
+    {
+
+      day: 20,
+    
+      message: `...`
+    
+    },
+    
+    {
+    
+      day: 21,
+    
+      message: `...`
+    
+    },
+    {
+
+      day: 22,
+    
+      message: `...`
+    
+    },
+    
+    {
+    
+      day: 23,
+    
+      message: `HELLO BABY! SORRY FOR MISSING A FEW DAYS OF NOTES! But I am back and my writing prowess is going to be on full display in this letter. There is not a day, hour, or minute that goes by in my day to day where I do not miss you, and wish you were home. I spend most of my day looking for distractions from the fact that you aren’t here with me. There have been many nights where I find myself lonely, bored, and feeling like something is missing. I think it’s pretty apparent at this point that what I am missing is you. I don’t feel normal when you’re not around. But we are officially two weeks out from you getting back, and that means all of the lonely time spent missing you will get traded in for radiant joy being in your presence. I anticipate our lunches, dinners, date nights, pickleball competitions, movie nights, walks, naps, and everything in between. I cant wait for you to be home, you mean more to me than you could know! I love you baby, have a great day.`
+    
+    },
+
+    {
+
+      day: 24,
+    
+      message: `Heyyyyyyyyyyyy babe! Happy day 24 in Italia! Spero che tu stia passando una splendida giornata. Mi manchi e ti voglio bene.
+                Today I thought I would provide you with some sweet song lyrics that remind me of you!
+
+                “You like my Morning, my light, my love, my heart, my soul
+                The only one I relate to
+                You've been looking for some one on one time
+                So let me pick you up and Ima take you on a date boo
+                Everything I want and need
+                Am I in love? oh yes indeed”
+                Natural High - Freddie Gibbs
+
+                And this one too!
+                 “I was hers and she was mine
+                And when she said she would be my bride
+                Then I knew deep inside
+                She was mine
+                She stole my heart
+                She caught my fancy” 
+                She caught my fancy - Ween
+
+                And finally, this one: 
+
+                “Ayy, big ole freak, huh
+                Big booty, big ole treat (Ah)
+                I'ma make him wait for the pussy
+                Hit it 'til he big ole skeet, ayy (Baow, baow, baow)”
+                Big Ole Freak - Megan Thee Stallion`
+    
+    },
+
   ];

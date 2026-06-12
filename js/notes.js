@@ -180,37 +180,18 @@ I look forward to hearing your answers baby! I hope you have/had a great day, an
     },
 
     {
-
-      day: 24,
-    
-      message: `Heyyyyyyyyyyyy babe! Happy day 24 in Italia! Spero che tu stia passando una splendida giornata. Mi manchi e ti voglio bene.
-                Today I thought I would provide you with some sweet song lyrics that remind me of you!
-
-                “You like my Morning, my light, my love, my heart, my soul
-                The only one I relate to
-                You've been looking for some one on one time
-                So let me pick you up and Ima take you on a date boo
-                Everything I want and need
-                Am I in love? oh yes indeed”
-                Natural High - Freddie Gibbs
-
-                And this one too!
-                 “I was hers and she was mine
-                And when she said she would be my bride
-                Then I knew deep inside
-                She was mine
-                She stole my heart
-                She caught my fancy” 
-                She caught my fancy - Ween
-
-                And finally, this one: 
-
-                “Ayy, big ole freak, huh
-                Big booty, big ole treat (Ah)
-                I'ma make him wait for the pussy
-                Hit it 'til he big ole skeet, ayy (Baow, baow, baow)”
-                Big Ole Freak - Megan Thee Stallion`
-    
+      day: 24,   
+      message: `...`
     },
+    {
 
+      day: 25,
+      message: `Hello babe! I hope you had a great tour of the Vatican!! Since you got to do something that cool, I want you to send me all of the pictures you got, and also let me know a crazy fact you learned on your tour! In fact, I got a fact, for you, matter of fact, in fact about the Vatican: The Banquet of Chestnuts was a supper party hosted at the Papal Palace in Rome by Cardinal Cesare Borgia (the son of Pope Alexander VI) It was held on the 31st of October, 1501. At this party, 50 prostitutes from around the Vatican area were hired for the night to dance during dinner. They were then made to compete with each other by crawling around naked on the dining hall floor picking up chestnuts. After the games finished, all of the Clergy men, Cardinals, and other royal/religious affiliates had sex with the prostitutes in a night long orgy! I hope you enjoyed this interesting little tidbit about the Holy Land! Anyways, I love you so so so much, and I cant wait to hear from you!`
+    },
+    {
+
+      day: 26,
+      
+      message: `HELLO AGAIN! Happy day 26!!! I hope you are having a great day hanging out with your fam in Rome! I’m so jealous I don’t get to be there, but I know that we will definitely go back someday soon, so I’m just counting down the days till our honeymoon (Only 1354 days left!!) Make sure to send lots of vlogs and videos of what you guys do today! Anyways, I just want to tell you that I could not live my life without you, you make every aspect of my day better. When I wake up, I wake up with you on my mind, and I wake up ready to talk to you! When I’m at work, it’s the spontaneous calls from you that make my day that much easier. When I get home, it’s being able to relax with you, or get dinner, or call and talk about our days that makes all of the work of getting through a day worth it. You are my best friend and you are important to every minute of my day, so come on back to the same timezone so we can share a couple more minutes together! I love you baby, have a great day!`
+    },
   ];
